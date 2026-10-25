@@ -1,0 +1,55 @@
+{
+  "client_slug": "",
+  "brand_name": "",
+  "brand_colors": { "primary": "", "secondary": "" },
+  "logo_path": "",
+  "font": "",
+  "sender_email": "",
+  "contact_name": "",
+  "contact_email": "",
+  "files": {
+    "count_per_registrant": 0,
+    "type": "video | audio | pdf | mixed",
+    "approx_size_each": "",
+    "updates_over_time": false,
+    "groups_or_levels": false,
+    "drive_location_id": ""
+  },
+  "delivery": {
+    "mode": "private_permission",
+    "email_structure": "single | per_item",
+    "language": "he",
+    "direction": "rtl"
+  },
+  "entry_point": {
+    "channels": ["email"],
+    "email_keyword": "גישה",
+    "whatsapp": false,
+    "payment_required": false,
+    "payment_verification": ""
+  },
+  "sheets": {
+    "sheet_id": "",
+    "config_gid": "",
+    "registration_fields": ["name", "email", "phone", "date", "source", "files_sent"],
+    "mailing_list": false
+  },
+  "scale": {
+    "expected_registrants": "",
+    "heavy_video": false,
+    "generation_rotation": false,
+    "rotation_threshold": 18
+  },
+  "hosting": {
+    "where": "siro | client",
+    "domain": "",
+    "domain_owner": "",
+    "whitelisting_needed": true
+  },
+  "n8n": {
+    "connection": "mcp",
+    "webhook_url": "",
+    "workflows_built": ["A", "D"]
+  },
+  "repo": "siro-clients"
+}
